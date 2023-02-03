@@ -1,0 +1,81 @@
+/* .mytable{ */
+    /* display: table; */
+    /* width:100% */
+/* } */
+/*  */
+/* .table-caption{ */
+    /* display: table-caption; */
+    /* text-align:left; */
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+/* } */
+/*  */
+/* .table-header{ */
+    /* display: table-header-group; */
+    /* font-size: 20px; */
+    /* font-weight: bolder; */
+/* } */
+/*  */
+/* .table-header-cell{ */
+    /* display: table-cell; */
+    /* padding: 10px; */
+    /* text-align: left; */
+    /* border-bottom: 1px solid gray; */
+    /* width: 25%; */
+/* } */
+/* .table-body{ */
+    /* display: table-row-group; */
+/* } */
+/* .table-row{ */
+    /* display: table-row; */
+/* } */
+/* .table-row-cell{ */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* border-bottom: 1px solid gray;  */
+    /* padding-bottom: 15px;    */
+/* } */
+/*  */
+/* #h1{ */
+    /* width:10% */
+/* } */
+/*  */
+/* #h2{ */
+    /* width:50%; */
+/* } */
+/*  */
+/* #h3{ */
+    /* width:20%; */
+/* } */
+/*  */
+/* #h4{ */
+    /* width:20%; */
+/* } */
+    /*  */
+/*  */
+/*  */
+h2{
+    display: table-caption;
+    
+}
+
+.mytable {
+    display: table;
+    max-width: 900px;
+    margin: auto;
+}
+.myTableRow {
+    display: table-row;
+}
+.myTableHead {
+    font-weight: 700;
+}
+.myTableHead, .myTableData {
+    display: table-cell;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+}
+.myTableData img {
+    max-width: 100px;
+}
